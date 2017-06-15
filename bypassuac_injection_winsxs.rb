@@ -209,7 +209,7 @@ class MetasploitModule < Msf::Exploit::Local
     winver = sysinfo['OS']
 
     case winver
-    when /Windows (8|2008|2012|10)/
+    when /Windows (8|10)/
       print_good("#{winver} may be vulnerable.")
     else
       fail_with(Failure::NotVulnerable, "#{winver} is not vulnerable.")
