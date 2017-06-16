@@ -4,7 +4,7 @@
 
 <p align="justify">To configure the module you must set the proper TARGET, x64 or x86 Windows machine. Also, you must set the corresponding PAYLOAD. Finally, you must configure the common options LHOST, LPORT and so on like in any other module.</p>
 
-<p align="justify"><b>Warning! This module is in the process of being implemented in Metasploit, so currently will not work since many dependencies are not currently included in the framework.</b></p>
+<p align="justify"><b>Warning! This module is in the process of being implemented in Metasploit, so currently will not work since many dependencies are not currently included in the framework, to see them check this <a href="https://github.com/rapid7/metasploit-framework/pull/8509">pull request</a>.</b></p>
 
 <b>x86 Windows</b>
 <p align="center">
